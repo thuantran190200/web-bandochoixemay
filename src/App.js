@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = "Thuận Trần";
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +20,20 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div>
+      <h1>Họ tên: {name}</h1>
+    </div>
+    </div>
+  );
+}
+
+function Menu(){
+  const name = "Thuận Trần";
+  
+  return (
+    <div>
+      <h1>Họ tên: {name}</h1>
     </div>
   );
 }
